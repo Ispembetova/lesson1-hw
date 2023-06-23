@@ -65,3 +65,21 @@ else
 
 
 task 4
+
+Console.Clear();
+Console.Write("Enter a ");
+int a = int.Parse(Console.ReadLine());
+
+int i = 1;
+while (i <= a)
+{
+    Console.WriteLine($"{i}");
+     i=i+2;
+}
+for (i=1; i <= a; i++)
+{
+    if(i%2==0)
+    {Console.Write ($"{i+","}");
+
+}
+}
